@@ -1,0 +1,155 @@
+body
+{
+background:url(images/bg.jpg) no-repeat center top #310b28;
+font-family:Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0 auto;
+color: #0e4354;
+
+}
+
+a{
+color:#256c89;
+}
+h2{
+font-size:18px;
+color:#0e4354;
+font-weight:normal;
+padding:0px 0 15px 0;
+margin:0px;
+clear:both;
+}
+.tabinput{
+width:100%;
+color:blue;
+}
+h3{
+font-size:18px;
+color:white;
+font-weight:normal;
+padding:15px 0 5px 20px;
+margin:0px;
+float:center;
+clear:both;
+}
+.h3{
+font-size:18px;
+color:#00B2EE;
+font-weight:normal;
+padding:15px 0 5px 20px;
+margin:0px;
+float:center;
+clear:both;
+
+}
+
+#main_container{
+margin:0 auto;
+width:900px;
+padding:0px 0 0px 0;
+}
+.header{
+width:900px;
+height:100px;
+}
+.header_login{
+width:600px;
+margin:auto;
+}
+
+.right_header{
+width:350px;
+float:right;
+text-align:right;
+color:#FFFFFF;
+padding:40px 0 0 0;
+}
+.right_header a{
+margin:0 5px 0 5px;
+text-decoration:underline;
+color:#FFFFFF;
+}
+
+.right_header a.logout{
+background:url(images/user_logout.png) no-repeat right;
+padding-right:20px;
+}
+.main_cont{
+position:absolute;
+left:20%;
+margin:auto;
+width:600px;
+height:250px;
+padding:80px 80px 80px 80px;
+background:url(imgbg.png) no-repeat center top #fff;
+border-radius:10px 10px 10px  10px;
+}
+
+.main_content{
+margin:0 auto;
+width:900px;
+height:450px;
+padding:0px 0 50px 0;
+background:url(images/menu_bg.jpg) no-repeat center top #fff;
+}
+.footer{width:900px;height:87px;background:url(images/footer_bg.jpg) no-repeat center top;}
+.footer_login{width:600px;margin:auto;}
+
+.left_footer_login{float:left;padding:15px 0 0 10px;color:#a8549b;font-size:11px;}
+.left_footer_login a{color:#FFFFFF;text-decoration:none;}
+.right_footer_login{float:right;padding:15px 10px 0 0;}
+/*---------------- menu----------------------*/
+.menu {font-size:11px;padding:0px 10px 0 10px; float:left; width:880px;}
+
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {padding:0;margin:0;list-style-type:none; height:34px;}
+
+
+
+/* float the top list items to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu ul li {float:left;height:34px;line-height:34px;}
+
+/* style the sub level list items */
+.menu ul ul li {display:block;width: auto;height:auto;position:relative;line-height:1em;}
+
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;float:left;height:100%;font-size:11px;text-decoration:none;color:#fff;padding:0 21px 0 17px;}
+.menu a.current{background:url(images/menu_bg.gif) repeat-x center;}
+
+.right_content{
+width:625px;
+float:left;
+padding:30px 0 0 30px;
+}
+
+#blink{
+text-decoration:blink;
+}
+
+#rounded-corner
+{
+margin:0px;
+width:625px;
+text-align: left;
+border-collapse: collapse;
+margin: 20px 100px 20px 100px;
+}
+
+
+#rounded-corner th
+{
+padding: 8px;
+font-weight: normal;
+font-size: 13px;
+color: #039;
+background: #60c8f2;
+}
+#rounded-corner td
+{
+padding: 8px;
+background: #ecf8fd;
+border-top: 1px solid #fff;
+color: #669;
+}
+

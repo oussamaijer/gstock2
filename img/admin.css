@@ -1,0 +1,38 @@
+body{
+background-color:white;
+background-image:url("bg.jpg");
+font-family:arial,verdana,sans-serif;
+
+
+}
+#back{
+border-style:ridge;
+border-radius:100px 100px 100px 100px ;
+padding-top:30px;
+padding-bottom:30px;
+font-size:30px;
+font-weight:bold;
+border-color:;
+text-shadow:20px red;
+color:#6CA6CD;
+}
+#blink{
+text-decoration:Blink;
+}
+div
+{
+background:white;
+border-radius:10px 10px 10px 10px;
+margin-top:50px;
+  width:700px;
+  height:295px;
+  position:absolute;
+  left:150px;}
+  #inpu{
+  border-radius:5px 5px 5px 5px;
+  box-shadow:5px;
+  background:#EDEDED;
+  width:300px;}
+ 
+  
+ 
